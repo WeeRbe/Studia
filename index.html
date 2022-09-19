@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Студия интерьеров</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+	<body>
+	<div class="wrapper">
+		<header id="header" class="header lock-padding">
+    <div class='header__container'>
+        <div class="header__body">
+            <a href="index.html" class="header__logo">
+                Logo
+            </a>
+            <div class="header__burger"></div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li>
+                        <a href="index.html" class="header__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="header__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="header__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="news.html" class="header__link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="text__menu">Menu</p>
+            <div class="header__btn">
+                <p>En</p>
+                <a href="#" id="open__popup" class="header__button btn">Send Request</a>
+            </div>
+
+            <div id="popup" class="popup">
+                <div id="popup__body" class="popup__body">
+                    <div class="popup__top-content">
+                        <h2 class="popup__title">Calculate the cost of work</h2>
+                        <form action="#" class="form__popup">
+                            <div class="popup__input-left">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Phone">
+                                <input type="text" placeholder="Email"> 
+                            </div>
+                            <div class="popup__input-right">
+                                <input type="text" placeholder="Last name">
+                                <input type="text" placeholder="Your city">
+                                <input type="text" placeholder="Property type">
+                            </div>
+                            
+                        </form>
+                        <form action="#" class="popup__main-form"><input type="text" placeholder="Your comment"></form>
+                    </div>
+                    <div class="popup__bottom-content">
+                        <p class="popup__bottom-title">Area (m2)</p>
+                        <div class="pop-up__choices-block pop-up__choices-laptop">
+                            <div class="pop-up__choice"><p class="pop-up__choice-text">to 50</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">50-150</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">150-250</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">250-400</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">400-600</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">600-800</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">800-1000</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">1000+</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="pop-up__choices-block pop-up__choices-tablet">
+                            <div class="pop-up__choice-4-wrapper">
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">to 50</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">50-150</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">150-250</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">250-400</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                            </div>
+                            <div class="pop-up__choice-4-wrapper">
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">400-600</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">600-800</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">800-1000</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">1000+</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-up__bottom-body">
+                            <div class="pop-up__bottom-left">
+                                <div class="pop-up__bottom-attach"></div>
+                                <div class="pop-up__bottom-text-wrapper">
+                                    <p class="pop-up__bottom_text">Attach your file</p>
+                                    <p class="pop-up__bottom_subtext">File size not more than 10 MB</p>
+                                </div>
+                            </div>
+                            <button class="common-font-11 common-btn pop-up__btn pop-up__btn-trigger">Send Request</button>
+                        </div>
+                    </div>
+                    <div id="popup__close" class="popup__close"><img src="img/svgicons/close.svg" alt="#"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+		<main id="lock" class="main">
+
+				<div class="swiper swiper-block">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-content-1">
+							<div class="main__container">
+								<div class="main__title-block">
+									<div class="main__title-content">
+										<h1 class="main__title">Thoughtful making of space</h1>
+										<p class="text-border">Discover more</p>
+									</div>
+									<div class="button__slider-content">
+										<div class="swiper-button-prev">
+											<img src="img/svgicons/prev.svg" alt="#">
+											<p class="number__slider-prev">02</p>
+										</div>
+										<span></span>
+										<div class="swiper-button-next">
+											<p class="number__slider-next">04</p>
+											<img src="img/svgicons/next.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="main__title-block-footer">
+									<div class="main__tbf-lang">
+										<p>Fb</p>
+										<p>In</p>
+										<p>Be</p>
+									</div>
+									<select name="country" class="country">
+										<option value="1" selected>Berlin</option>
+										<option value="1">USA</option>
+										<option value="1">Franch</option>
+									</select>
+									<div class="back__call">
+										<p>+380983527547</p>
+										<p>E: info@gmail.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slide-content-2">
+							<div class="main-2__container">
+								<div class="swiper__logo-next">
+									<h4>Next Project</h4>
+									<p>Perfect 
+										proportions</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			<div class="index__philosophy">
+				<div class="philosophy__container">
+					<div class="philosophy__abs projects__abs">
+						<span class="projects__abs-line"></span>
+						<p>About</p>
+					</div>
+					<div class="philosophy__contents">
+						<div class="philosophy__content-top">
+							<div class="pc-top__text">
+								<h2 class="pc-top__text-title">Company Philosophy </h2>
+								<p class="pc-top__text-inform pct__tit">The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by <br> lightning-fast development of projects employing unique styles and architecture. Even if you don't have a ready sketch of what you want - we will help you get the result.</p>
+								<p class="pc-top__text-inform pct__tib">We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. Do you want to combine classics and abstract art? Modern and retro? Love everything associated with the 1940's? No problem! </p>
+								<div class="pc-top__text-link">
+									<span class="pc-border-1"></span>
+										<a href="#">Discover more</a>
+									<span class="pc-border-2"></span>
+								</div>
+							</div>
+							<img src="img/main/company1.jpg" alt="#" class="pc-top__icon">
+						</div>
+						<div class="philosophy__content-bottom">
+							<div class="pc-bottom__icon">
+								<img src="img/main/company-bottom1.jpg" alt="#" class="pc-bottom__icon-big">
+								<img src="img/main/company-bottom-min1.jpg" alt="#" class="pc-bottom__icon-min">
+							</div>
+							<div class="pc-bottom__text">
+								<span>“</span>
+								<p>We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="main__projects">
+				<div class="projects__container">
+					
+					<div class="projects__abs">
+						<span class="projects__abs-line"></span>
+						<p>Projects</p>
+					</div>
+					<div class="projects__contents">
+						<div class="projects__title">
+							<h2>Our Projects</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+						</div>
+						<div class="projects__gtid">
+							<div class="invisible__text">
+								<div class="spotlight"></div>
+							</div>
+							<div class="projects-grid__icon-1">
+								<div class="pg__i1">
+									<div class="pg__i2-top-text">
+										<p>Lodz</p>
+										<p>16.10.2018</p>
+										<p>80 sq.m</p>
+									</div>
+									<div class="pg__i2-bottom-text pg-1__i2-bottom-text">
+										<p>Eyewear store interior</p>
+									</div>
+									<div class="pc-top__text-link pg__i2 pg__t1">
+										<span class="pc-border-1"></span>
+											<a href="#">Discover more</a>
+										<span class="pc-border-2"></span>
+									</div>
+								</div>
+							</div>
+							<div class="projects-grid__icon-2">
+								<div class="pg__i2-top-text">
+									<p>Lodz</p>
+									<p>16.10.2018</p>
+									<p>80 sq.m</p>
+								</div>
+								<div class="pg__i2-bottom-text">
+									<p>Residence by the lighthouse</p>
+								</div>
+								<div class="pc-top__text-link pg__i2">
+									<span class="pc-border-1"></span>
+										<a href="#">Discover more</a>
+									<span class="pc-border-2"></span>
+								</div>
+							</div>
+							<div class="projects-grid__icon-3">
+								<div class="pg__i3">
+									<div class="pg__i2-top-text pgi3__tt">
+										<p>Lodz</p>
+										<p>16.10.2018</p>
+										<p>80 sq.m</p>
+									</div>
+									<div class="pg__3-block">
+										<div class="pg__i2-bottom-text pg-1__i3-bottom-text">
+											<p>Residence by the <br> lighthouse</p>
+										</div>
+										<div class="pc-top__text-link pg__i2 pg__t3">
+											<span class="pc-border-1"></span>
+												<a href="#">Discover more</a>
+											<span class="pc-border-2"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="projects-grid__icon-4">
+								<div class="pg__i1">
+									<div class="pg__i2-top-text pgi4__tt">
+										<p>Lodz</p>
+										<p>16.10.2018</p>
+										<p>80 sq.m</p>
+									</div>
+									<div class="pg__i2-bottom-text pg-1__i2-bottom-text pgi__4">
+										<p>Eyewear store interior</p>
+									</div>
+									<div class="pc-top__text-link pg__i2 pg__t4">
+										<span class="pc-border-1"></span>
+											<a href="#">Discover more</a>
+										<span class="pc-border-2"></span>
+									</div>
+								</div>
+							</div>
+							<div class="projects-grid__icon-6">
+								<div class="pg__i6">
+									<div class="pg__i2-top-text">
+										<p>Lodz</p>
+										<p>16.10.2018</p>
+										<p>80 sq.m</p>
+									</div>
+									<div class="pg__i2-bottom-text pg-1__i6-bottom-text">
+										<p>House on a Hillside</p>
+									</div>
+									<div class="pc-top__text-link pg__i2 pg__t6">
+										<span class="pc-border-1"></span>
+											<a href="#">Discover more</a>
+										<span class="pc-border-2"></span>
+									</div>
+								</div>
+							</div>
+							<div class="projects-grid__icon-5">
+								<p>See more 60 projects</p>
+							</div>
+						</div>
+					</div>
+					<div class="projects__footer-contents">
+						<div class="projects__abs projects__abs-footer">
+							<span class="projects__abs-line"></span>
+							<p>Make request</p>
+						</div>
+						<div class="projects__fc-tetle">
+							<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+						</div>
+						<div class="projects__fc-incons">
+							
+								<img class="projects__fc-incons-1" src="img/main/prop1.svg" alt="#">
+								<img class="projects__fc-incons-2" src="img/main/prop2.svg" alt="#">
+								<img class="projects__fc-incons-3" src="img/main/prop3.svg" alt="#">
+								<img class="projects__fc-incons-4" src="img/main/prop4.svg" alt="#">
+								<img class="projects__fc-incons-5" src="img/main/prop5.svg" alt="#">
+								<img class="projects__fc-incons-6" src="img/main/prop6.svg" alt="#">
+								<img class="projects__fc-incons-7" src="img/main/prop7.svg" alt="#">
+								<img class="projects__fc-incons-8" src="img/main/prop8.svg" alt="#">
+								<img class="projects__fc-incons-9" src="img/main/prop9.svg" alt="#">
+								<img class="projects__fc-incons-10" src="img/main/prop10.svg" alt="#">
+						</div>
+						<div class="projects__fc-text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</p>
+							<a href="#" class="projects__fc-text-btn">Make request</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="block__lorem-icon">
+				<div class="lorem-icon__container">
+					<div class="lorem-icons">
+						<img src="img/main/lorem1.jpg" alt="#" class="lorem-icon-1">
+						<img src="img/main/lorem2.jpg" alt="#" class="lorem-icon-2">
+						<img src="img/main/lorem3.jpg" alt="#" class="lorem-icon-3">
+						<img src="img/main/lorem4.jpg" alt="#" class="lorem-icon-4">
+						<img src="img/main/lorem5.jpg" alt="#" class="lorem-icon-5">
+						<img src="img/main/lorem6.jpg" alt="#" class="lorem-icon-6">
+						<img src="img/main/lorem7.jpg" alt="#" class="lorem-icon-7">
+						<img src="img/main/lorem8.jpg" alt="#" class="lorem-icon-8">
+					</div>
+					<div class="block__lorem-icon-title">
+						<h2>@lorem.ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </p>
+					</div>
+				</div>
+			</div>
+
+			<footer class="contact">
+				<div class="contact__container">
+					<div class="projects__abs projects__abs-content">
+						<span class="projects__abs-line"></span>
+						<p>Contacts</p>
+					</div>
+					<div class="content__title">
+						<h4>Drop us a line</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </p>
+					</div>
+					<div class="content__informs">
+						<div class="content__contents">
+							<div class="content__inform-title content__inform-title-1">
+								<h4>Kyiv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+							<div class="content__inform-title content__inform-title-2">
+								<h4>Lviv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+							<div class="content__inform-title content__inform-title-3">
+								<h4>Kharkiv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+						</div>
+						<div class="content__infomt-contacts">
+							<p>info@gmail.com</p>
+							<div class="ps-footer__text ps-footer__text-2">
+								<p>Fb</p>
+								<p>In</p>
+								<p>Be</p>
+							</div>
+						</div>
+					</div>
+					<div class="projects__fc-text projects__fc-text-footer">
+						<a href="#" class="projects__fc-text-btn">Make request</a>	
+					</div>
+					<div class="contact__footer">
+						<div class="contact__footer-left">
+							<p>© Copyright 2018. All rights reserved</p>
+						</div>
+					<div class="contact__footer-rigft">
+						<p>Made with love in</p>
+						<img src="img/svgicons/footerPic.webp" alt="#">
+					</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+		<footer></footer>
+	</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/app.min.js"></script>
+	</body>
+</html>

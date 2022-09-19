@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Студия интерьеров</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper wrapper__news">
+        <header id="header" class="header lock-padding">
+    <div class='header__container'>
+        <div class="header__body header__body-black">
+            <a href="index.html" class="header__logo header__logo-black">
+                Logo
+            </a>
+            <div class="header__burger header__burger-black"></div>
+            <nav class="header__menu">
+                <ul class="header__list header__list-black">
+                    <li>
+                        <a href="index.html" class="header__link header__link-black">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="header__link header__link-black">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="header__link header__link-black">About us</a>
+                    </li>
+                    <li>
+                        <a href="news.html" class="header__link header__link-black">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header__link header__link-black">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="text__menu text__menu-black">Menu</p>
+            <div class="header__btn header__btn-black">
+                <p>En</p>
+                <a href="#" id="open__popup" class="header__button btn header__button-black">Send Request</a>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup__container">
+                    <div id="popup__body" class="popup__body">
+                        <div class="popup__top-content">
+                            <h2 class="popup__title">Calculate the cost of work</h2>
+                            <form action="#" class="form__popup">
+                                <div class="popup__input-left">
+                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Phone">
+                                    <input type="text" placeholder="Email"> 
+                                </div>
+                                <div class="popup__input-right">
+                                    <input type="text" placeholder="Last name">
+                                    <input type="text" placeholder="Your city">
+                                    <input type="text" placeholder="Property type">
+                                </div>
+                                
+                            </form>
+                            <form action="#" class="popup__main-form"><input type="text" placeholder="Your comment"></form>
+                        </div>
+                        <div class="popup__bottom-content">
+                            <p class="popup__bottom-title">Area (m2)</p>
+                            <div class="pop-up__choices-block pop-up__choices-laptop">
+                                <div class="pop-up__choice"><p class="pop-up__choice-text">to 50</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">50-150</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">150-250</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">250-400</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                                <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">400-600</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">600-800</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">800-1000</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">1000+</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- <div class="pop-up__choices-block pop-up__choices-tablet">
+                                <div class="pop-up__choice-4-wrapper">
+                                    <div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">to 50</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div><div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">50-150</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div>
+                                    <div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">150-250</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div>
+                                    <div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">250-400</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up__choice-4-wrapper">
+                                    <div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">400-600</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div><div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">600-800</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div><div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">800-1000</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div><div class="pop-up__choice">
+                                        <p class="pop-up__choice-text">1000+</p>
+                                        <div class="pop-up__choice-round"></div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="pop-up__bottom-body">
+                                <div class="pop-up__bottom-left">
+                                    <div class="pop-up__bottom-attach"></div>
+                                    <div class="pop-up__bottom-text-wrapper">
+                                        <p class="pop-up__bottom_text">Attach your file</p>
+                                        <p class="pop-up__bottom_subtext">File size not more than 10 MB</p>
+                                    </div>
+                                </div>
+                                <button class="common-font-11 common-btn pop-up__btn pop-up__btn-trigger">Send Request</button>
+                            </div>
+                        </div>
+                        <div id="popup__close" class="popup__close"><img src="img/svgicons/close.svg" alt="#"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main id="lock" class="main">
+        <div class="header-news__container">
+            <div class="news__header-nav">
+                <h2>Our latest news</h2>
+                <div class="projects__header-nav">
+                    <button class="header-nav__projects-btn">Apartments</button>
+                    <ul class="header__nav-projects">
+                        <li><a href="index.html"> All</a></li>
+                        <li><a href="oneproject.html">Blog</a></li>
+                        <li><a href="onenews.html">News</a></li>
+                        <li><a href="#">Advice from the designer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-news__container">
+            <div class="grid-news__contents">
+                <div class="grid-news__content-1">
+                    <img src="img/news/news-grid5.jpg" alt="#" class="grid-news__content-icons-1">
+                    <h4>5 smart tips for <br> productive collaboration <br> with the designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</p>
+                    <div class="discover">
+                        <span class="discover-left"></span>
+                        <p>Discover more</p>
+                        <span class="discover-right"></span>
+                    </div>
+                </div>
+                <div class="grid-news__content-2"></div>
+                <div class="grid-news__content-3">
+                    <p>Non-standard <br> plinth options</p>
+                </div>
+                <div class="grid-news__content-4">
+                    <p>Interior design, <br> LCD Rybalsky</p>
+                </div>
+                <div class="grid-news__content-5"></div>
+                <div class="grid-news__content-6">
+                    <img src="img/news/news-grid6.jpg" alt="#" class="grid-news__content-icons-6">
+                    <h4>5 smart tips for <br> productive collaboration <br> with the designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <br> vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</p>
+                    <div class="discover">
+                        <span class="discover-left"></span>
+                        <p>Discover more</p>
+                        <span class="discover-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="numbers__nav">
+                <span class="numbers__nav-prev"><img src="img/svgicons/arrow-left.svg" alt="prev"></span>
+                    <div class="number__nsv-number">
+                        <p>01</p>
+                        <p>02</p>
+                        <p>03</p>
+                        <p>...</p>
+                        <p>15</p>
+                    </div>
+                <span class="numbers__nav-next"><img src="img/svgicons/arrow-right.svg" alt="next"></span>
+            </div>
+        </div>
+
+
+        
+        <div class="news-email__container">
+            <div class="news-email__icon"></div>
+
+            <div class="news-email__content-top">
+                <h2>Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit. </h2>
+            </div>
+            <div class="news-email__content-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Aliquam ullamcorper eu mauris vitae posuere. <br> Ut at luctus ligula. Nunc ante felis, aliquam.</p>
+                <form action="#" class="email-btn">
+                    <input type="email" placeholder="Email" class="email-block">
+                    <a href="#" class="send"><img src="img/svgicons/arrow-email.svg" alt="#"></a>
+                </form>
+                
+            </div>
+
+            <footer class="footer">
+                <div class="contact__footer footer__contents">
+                    <div class="contact__footer-left">
+                        <p>© Copyright 2018. All rights reserved</p>
+                    </div>
+					<div class="contact__footer-rigft">
+						<p>Made with love in</p>
+						<img src="img/svgicons/footerPic.webp" alt="#">
+					</div>
+                </div>
+        </footer>
+        </div>
+
+
+    </main>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>
